@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Элементы решения/">
+    <File Path=".gitignore" />
+  </Folder>
+  <Project Path="lab2a/lab2a.vcxproj" Id="45ad6b5b-f691-4493-88ff-2bbf93e987da" />
+</Solution>
