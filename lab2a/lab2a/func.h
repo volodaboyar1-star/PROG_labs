@@ -6,8 +6,8 @@ using namespace std;
 
 template <typename T>
 struct list_arr {
-    int size;
-    int current;
+    int size = 0;
+    int current = 0;
     T* data = nullptr;
 };
 
@@ -21,6 +21,7 @@ void create_empty(list_arr<T>& list, int size)
 {   
     if (list.data != nullptr) {
         delete[] list.data;
+        list.data = nullptr;
     }
     list.size = size;
     list.current = 0;
@@ -144,7 +145,7 @@ void append(vector_arr<T>& list, T value)
 template <typename T>
 void insert(vector_arr<T> &list, int index, T value)
 {
-    if (index < list.size())
+    if (index < list.data.size())
     {
         list.data.insert(list.data.begin() + index, value);
     }
@@ -217,13 +218,13 @@ void print(vector_arr<T>& list)
 template <typename T>
 struct Node {
     T data;
-    Node<T>* next;
+    Node<T>* next = nullptr;
 };
 template <typename T>
 struct list_linked {
-    Node<T>* head;
-	Node<T>* tail;
-    int size;
+    Node<T>* head = nullptr;
+	Node<T>* tail = nullptr;
+    int size = 0;
 };
 
 //---------------------create_empty_linked

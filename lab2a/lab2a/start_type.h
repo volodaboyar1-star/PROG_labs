@@ -2,6 +2,20 @@
 #include "func.h"
 using namespace std;
 
+//---------------------generate test value(gemini help debug)
+template <typename T>
+T generate_val(int i) { 
+	return (T)i; 
+}
+
+template <>
+string generate_val<string>(int i) {
+	return "" + to_string(i);
+}
+
+
+
+
 //---------------------interactive
 template <typename T>
 void interactive()
@@ -232,10 +246,11 @@ void benchmark()
 	cout << "===================BENCHMARK================" << endl;
 	//copilot solo do benchmark
 	int max_iter = 100000;
-	T data = get_test_value<T>(1);
+	T data = generate_val<T>(1);
 
 	//---------------------static list
 	list_arr<T> list_static;
+	create_empty(list_static, max_iter);
 	double start_time = Time();
 	for (int i = 0; i < max_iter; i++)
 	{
@@ -267,15 +282,17 @@ void benchmark()
 template <typename T>
 void demonstration()
 {
+	T data = generate_val<T>(1);
 	cout << "===================DEMONSTRATION================" << endl;
 	list_arr<T> list_static;
+	create_empty(list_static, 10);
 	vector_arr<T> list_vector;
 	list_linked<T> list_linked;
 	for (int i = 0; i < 10; i++)
 	{
-		append(list_static, );
-		append(list_vector, );
-		append(list_linked, );
+		append(list_static,data );
+		append(list_vector, data);
+		append(list_linked, data);
 	}
 	cout << "Static list: ";
 	print(list_static);

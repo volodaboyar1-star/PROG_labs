@@ -10,5 +10,5 @@ using namespace std;
 //---------------------main
 int main()
 {    
-	//choose_data_type();
+	choose_data_type();
 }
