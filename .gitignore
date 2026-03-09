@@ -5,6 +5,8 @@
 *.user
 *.userosscache
 *.sln.docstates
+*.vcxproj
+*.vcxproj.filters
 
 # Build / binary outputs
 [Bb]in/
