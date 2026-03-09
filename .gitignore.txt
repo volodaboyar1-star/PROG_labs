@@ -1,151 +1,107 @@
-# Created by https://www.toptal.com/developers/gitignore/api/c++,clion
-# Edit at https://www.toptal.com/developers/gitignore?templates=c++,clion
+	# Visual Studio
+	.vs/
+	.vscode/
+	*.suo
+	*.user
+	*.userosscache
+	*.sln.docstates
+	*.vcxproj
+	*.vcxproj.filters
 
-### C++ ###
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-### CLion ###
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
-# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
-
-# User-specific stuff
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/**/usage.statistics.xml
-.idea/**/dictionaries
-.idea/**/shelf
-
-# AWS User-specific
-.idea/**/aws.xml
-
-# Generated files
-.idea/**/contentModel.xml
-
-# Sensitive or high-churn files
-.idea/**/dataSources/
-.idea/**/dataSources.ids
-.idea/**/dataSources.local.xml
-.idea/**/sqlDataSources.xml
-.idea/**/dynamic.xml
-.idea/**/uiDesigner.xml
-.idea/**/dbnavigator.xml
-
-# Gradle
-.idea/**/gradle.xml
-.idea/**/libraries
-
-# Gradle and Maven with auto-import
-# When using Gradle or Maven with auto-import, you should exclude module files,
-# since they will be recreated, and may cause churn.  Uncomment if using
-# auto-import.
-# .idea/artifacts
-# .idea/compiler.xml
-# .idea/jarRepositories.xml
-# .idea/modules.xml
-# .idea/*.iml
-# .idea/modules
-# *.iml
-# *.ipr
-
-# CMake
-cmake-build-*/
-
-# Mongo Explorer plugin
-.idea/**/mongoSettings.xml
-
-# File-based project format
-*.iws
-
-# IntelliJ
+	# Build / binary outputs
+	[Bb]in/
+	[Oo]bj/
 out/
+build/
+Debug/
+Release/
+x64/
+x86/
 
-# mpeltonen/sbt-idea plugin
-.idea_modules/
+	# Visual C++ intermediate files
+	ipch/
+	*.iobj
+	*.ipdb
+	*.pch
+	*.pdb
+	*.ilk
+	*.idb
+	*.exp
 
-# JIRA plugin
-atlassian-ide-plugin.xml
+	# VS database & caches
+	*.sdf
+	*.dbmdl
+	*.opendb
+	*.opensdf
 
-# Cursive Clojure plugin
-.idea/replstate.xml
+	# NuGet
+	packages/
+	*.nupkg
+	.nuget/packages/
 
-# SonarLint plugin
-.idea/sonarlint/
+	# MSBuild
+	*.aps
+	*.ncb
+	*.psess
+	*.vsp
+	*.vspx
+	*.vsix
+	*.cache
+	*.lastbuildstate
 
-# Crashlytics plugin (for Android Studio and IntelliJ)
-com_crashlytics_export_strings.xml
-crashlytics.properties
-crashlytics-build.properties
-fabric.properties
+	# Visual Studio Code / JetBrains Rider / IDEs
+	.idea/
+	*.sln.iml
 
-# Editor-based Rest Client
-.idea/httpRequests
+	# User-specific files
+	*.rsuser
+	*.userprefs
+	*.user
+	*.vcxproj.user
+	*.suo
 
-# Android studio 3.1+ serialized cache file
-.idea/caches/build_file_checksums.ser
+	# Logs, temp files
+	*.log
+	*.vspscc
+	*.vssscc
+	*.orig
+	*.rej
+	*.tmp
 
-### CLion Patch ###
-# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+	# Node
+	node_modules/
+	npm-debug.log*
+	yarn-error.log
+	pnpm-lock.yaml # ignore only if you intentionally don't track lockfile
 
-# *.iml
-# modules.xml
-# .idea/misc.xml
-# *.ipr
+	# Python
+	__pycache__/
+	*.py[cod]
+	*.egg-info/
+	venv/
+	env/
+	.venv/
 
-# Sonarlint plugin
-# https://plugins.jetbrains.com/plugin/7973-sonarlint
-.idea/**/sonarlint/
+	# macOS / Windows system files
+	.DS_Store
+	Thumbs.db
 
-# SonarQube Plugin
-# https://plugins.jetbrains.com/plugin/7238-sonarqube-community-plugin
-.idea/**/sonarIssues.xml
+	# Coverage / test artifacts
+	coverage/
+	*.lcov
 
-# Markdown Navigator plugin
-# https://plugins.jetbrains.com/plugin/7896-markdown-navigator-enhanced
-.idea/**/markdown-navigator.xml
-.idea/**/markdown-navigator-enh.xml
-.idea/**/markdown-navigator/
+	# Package managers / tooling
+	.idea/
+	.vscode/
+	.cargo/
+	target/
 
-# Cache file creation bug
-# See https://youtrack.jetbrains.com/issue/JBR-2257
-.idea/$CACHE_FILE$
+	# Secrets / env
+	.env
+	.env.local
+	.env.*.local
 
-# CodeStream plugin
-# https://plugins.jetbrains.com/plugin/12206-codestream
-.idea/codestream.xml
-
-# Azure Toolkit for IntelliJ plugin
-# https://plugins.jetbrains.com/plugin/8053-azure-toolkit-for-intellij
-.idea/**/azureSettings.xml
-
-# End of https://www.toptal.com/developers/gitignore/api/c++,clion
+	# Misc
+	*.sqlite
+	*.db
+	*.bak
