@@ -1,107 +1,53 @@
-	# Visual Studio
-	.vs/
-	.vscode/
-	*.suo
-	*.user
-	*.userosscache
-	*.sln.docstates
-	*.vcxproj
-	*.vcxproj.filters
-	*.vcxproj.user
+# =========================
+# Visual Studio / C++
+# =========================
 
-	# Build / binary outputs
-	[Bb]in/
-	[Oo]bj/
-	out/
-	build/
-	Release/
-	x64/
-	x86/
+# Тимчасові файли та кеш IDE
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
 
-	# Visual C++ intermediate files
-	ipch/
-	*.iobj
-	*.ipdb
-	*.pch
-	*.pdb
-	*.ilk
-	*.idb
-	*.exp
+# Папки збірки (Build / binary outputs)
+x64/
+x86/
+Debug/
+Release/
+[Bb]in/
+[Oo]bj/
+out/
+build/
 
-	# VS database & caches
-	*.sdf
-	*.dbmdl
-	*.opendb
-	*.opensdf
+# Скомпільовані та проміжні файли
+*.exe
+*.dll
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.exp
+*.tlog
+*.log
+*.lastbuildstate
+*.recipe
+*.iobj
+*.ipdb
+*.pch
 
-	# NuGet
-	packages/
-	*.nupkg
-	.nuget/packages/
+# Бази даних та кеші VS
+*.sdf
+*.dbmdl
+*.opendb
+*.opensdf
+*.aps
+*.ncb
+*.cache
 
-	# MSBuild
-	*.aps
-	*.ncb
-	*.psess
-	*.vsp
-	*.vspx
-	*.vsix
-	*.cache
-	*.lastbuildstate
-
-	# Visual Studio Code / JetBrains Rider / IDEs
-	.idea/
-	*.sln.iml
-
-	# User-specific files
-	*.rsuser
-	*.userprefs
-	*.user
-	*.vcxproj.user
-	*.suo
-
-	# Logs, temp files
-	*.log
-	*.vspscc
-	*.vssscc
-	*.orig
-	*.rej
-	*.tmp
-
-	# Node
-	node_modules/
-	npm-debug.log*
-	yarn-error.log
-	pnpm-lock.yaml # ignore only if you intentionally don't track lockfile
-
-	# Python
-	__pycache__/
-	*.py[cod]
-	*.egg-info/
-	venv/
-	env/
-	.venv/
-
-	# macOS / Windows system files
-	.DS_Store
-	Thumbs.db
-
-	# Coverage / test artifacts
-	coverage/
-	*.lcov
-
-	# Package managers / tooling
-	.idea/
-	.vscode/
-	.cargo/
-	target/
-
-	# Secrets / env
-	.env
-	.env.local
-	.env.*.local
-
-	# Misc
-	*.sqlite
-	*.db
-	*.bak
+# Системні файли ОС
+.DS_Store
+Thumbs.db
