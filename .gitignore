@@ -20,10 +20,12 @@
 	*.sln.docstates
 	*.vcxproj
 	*.vcxproj.filters
+	*.vcxproj.user
 
 	# Build / binary outputs
 	[Bb]in/
 	[Oo]bj/
+<<<<<<< HEAD
 out/
 build/
 Debug/
@@ -118,6 +120,14 @@ target/
 *.bak
 x64/
 x86/
+=======
+	out/
+	build/
+	/
+	Release/
+	x64/
+	x86/
+>>>>>>> 24b6f6c (.gitignore crazy guy)
 
 	# Visual C++ intermediate files
 	ipch/
