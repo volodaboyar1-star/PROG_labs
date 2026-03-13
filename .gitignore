@@ -7,16 +7,17 @@
 	*.sln.docstates
 	*.vcxproj
 	*.vcxproj.filters
+	*.vcxproj.user
 
 	# Build / binary outputs
 	[Bb]in/
 	[Oo]bj/
-out/
-build/
-Debug/
-Release/
-x64/
-x86/
+	out/
+	build/
+	/
+	Release/
+	x64/
+	x86/
 
 	# Visual C++ intermediate files
 	ipch/
