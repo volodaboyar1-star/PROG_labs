@@ -123,7 +123,6 @@ x86/
 =======
 	out/
 	build/
-	/
 	Release/
 	x64/
 	x86/
