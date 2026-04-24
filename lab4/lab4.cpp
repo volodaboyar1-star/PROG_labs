@@ -138,7 +138,7 @@ void printLevelOrder(std::shared_ptr<TreeNode> root) {
     for (auto node : current) {
       std::cout << node->value << " ";
     }
-    std::cout << "\n";
+    std::cout << std::endl;
 
     for (auto node : current) {
       for (auto child : node->children) {
@@ -533,7 +533,8 @@ void demonstrationMode() {
 // ============================================================================
 
 void interactiveMode() {
-  std::cout << "\n=== INTERACTIVE MODE ===" << std::endl << std::endl;
+  std::cout << std::endl;
+  std::cout << "=== INTERACTIVE MODE ===" << std::endl << std::endl;
   std::cout << "Choose data structure:" << std::endl;
   std::cout << "1. N-ary Tree" << std::endl;
   std::cout << "2. Binary Search Tree" << std::endl;
@@ -552,7 +553,8 @@ void interactiveMode() {
 
     int cmd;
     while (true) {
-      std::cout << "\nN-ary Tree Commands:" << std::endl;
+      std::cout << std::endl;
+      std::cout << "N-ary Tree Commands:" << std::endl;
       std::cout << "1. Add child" << std::endl;
       std::cout << "2. Print with brackets" << std::endl;
       std::cout << "3. Print with indentation" << std::endl;
@@ -603,7 +605,8 @@ void interactiveMode() {
     std::shared_ptr<BSTNode> bst = nullptr;
     int cmd;
     while (true) {
-      std::cout << "\nBST Commands:" << std::endl;
+      std::cout << std::endl;
+      std::cout << "BST Commands:" << std::endl;
       std::cout << "1. Insert value" << std::endl;
       std::cout << "2. Print with indentation" << std::endl;
       std::cout << "3. Print level-order" << std::endl;
