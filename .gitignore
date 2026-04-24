@@ -1,16 +1,3 @@
-# Visual Studio
-.vs/
-.vscode/
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-*.vcxproj
-*.vcxproj.filters
-
-# Build / binary outputs
-[Bb]in/
-[Oo]bj/
 	# Visual Studio
 	.vs/
 	.vscode/
@@ -20,104 +7,17 @@
 	*.sln.docstates
 	*.vcxproj
 	*.vcxproj.filters
+	*.vcxproj.user
+	*.slnx
 
 	# Build / binary outputs
 	[Bb]in/
 	[Oo]bj/
-out/
-build/
-Debug/
-Release/
-
-# Visual C++ intermediate files
-ipch/
-*.iobj
-*.ipdb
-*.pch
-*.pdb
-*.ilk
-*.idb
-*.exp
-
-# VS database & caches
-*.sdf
-*.dbmdl
-*.opendb
-*.opensdf
-
-# NuGet
-packages/
-*.nupkg
-.nuget/packages/
-
-# MSBuild
-*.aps
-*.ncb
-*.psess
-*.vsp
-*.vspx
-*.vsix
-*.cache
-*.lastbuildstate
-
-# Visual Studio Code / JetBrains Rider / IDEs
-.idea/
-*.sln.iml
-
-# User-specific files
-*.rsuser
-*.userprefs
-*.user
-*.vcxproj.user
-*.suo
-
-# Logs, temp files
-*.log
-*.vspscc
-*.vssscc
-*.orig
-*.rej
-*.tmp
-
-# Node
-node_modules/
-npm-debug.log*
-yarn-error.log
-pnpm-lock.yaml # ignore only if you intentionally don't track lockfile
-
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-venv/
-env/
-.venv/
-
-# macOS / Windows system files
-.DS_Store
-Thumbs.db
-
-# Coverage / test artifacts
-coverage/
-*.lcov
-
-# Package managers / tooling
-.idea/
-.vscode/
-.cargo/
-target/
-
-# Secrets / env
-.env
-.env.local
-.env.*.local
-
-# Misc
-*.sqlite
-*.db
-*.bak
-x64/
-x86/
+	out/
+	build/
+	Release/
+	x64/
+	x86/
 
 	# Visual C++ intermediate files
 	ipch/
