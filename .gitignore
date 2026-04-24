@@ -8,6 +8,7 @@
 	*.vcxproj
 	*.vcxproj.filters
 	*.vcxproj.user
+	*.slnx
 
 	# Build / binary outputs
 	[Bb]in/
